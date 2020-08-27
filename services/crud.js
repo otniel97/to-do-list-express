@@ -1,6 +1,5 @@
 // ====================================================
 //      CRUD BASE SERVICE
-//      By ARYA Team ©
 // ====================================================
 
 const { successMsg, errorMsg } = require('../utils/responses');
