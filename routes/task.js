@@ -32,12 +32,12 @@ api.post('/save', taskController.saveTask);
 api.put('/:id', taskController.updateTask);
 
 // ====================================
-// Actualizar tarea
+// Actualizar status de tarea
 // ====================================
 api.put('/:id/status', taskController.updateStatusTask);
 
 // ====================================
-// Actualizar tarea
+// Eliminar tarea
 // ====================================
 api.delete('/:id', taskController.deleteTask);
 
